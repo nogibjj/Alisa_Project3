@@ -2,6 +2,7 @@ import csv
 import sqlite3
 import requests
 
+
 connects = sqlite3.connect('Analysis.db')
 cursor = connects.cursor()
 
