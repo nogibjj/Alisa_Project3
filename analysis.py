@@ -12,5 +12,5 @@ cursor = connects.cursor()
 df=pd.read_csv("aac_shelter_outcomes.csv")
 
 
-#create the table
-table = 'CREATE TABLE ANALYSIS ()'
+#create the table and then execute
+table = 'CREATE TABLE Analysis ()'
