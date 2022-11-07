@@ -1,0 +1,11 @@
+black
+fastapi
+pytest
+pylint
+uvicorn[standard]
+requests
+kaggle
+numpy
+panda
+matplotlib
+typer
