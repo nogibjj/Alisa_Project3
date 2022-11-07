@@ -1,10 +1,11 @@
 import csv
 import sqlite3
-import requests
+from sqlite3 import Error
+import pandas as pandas
 
 
 connects = sqlite3.connect('Analysis.db')
 cursor = connects.cursor()
 
-df=requests.get("https://www.kaggle.com/datasets/aaronschlegel/austin-animal-center-shelter-outcomes-and/download?datasetVersionNumber=1.csv")
-print(type(df))
+#create the table
+table = 'CREATE TABLE ANALYSIS ()'
