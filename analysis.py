@@ -31,10 +31,13 @@ select = "SELECT * FROM Sheltor_outcome1 LIMIT 5"
 for n in cursor.execute(select):
     print(n)
 
-# Question1: Which type of breed hhas the highest waiting days in the shelter
+# Question1: Which type of breed has the highest waiting days in the shelter
 
-select_breed = 'SELECT breed1, AVG(outcome_age_days) AS avg_days from Sheltor_outcome1 GROUP BY breed1 ORDER BY avg_days DESC LIMIT 5'
+select_breed = 'SELECT breed, AVG(outcome_age_days) AS avg_days from Sheltor_outcome1 GROUP BY breed ORDER BY avg_days DESC LIMIT 5'
 for i in cursor.execute(select_breed):
     print(i)
 
-# result: scottish fold, persian, devon rex, pixiebob shorthair, pixiebob shorthair
+#  Question2:  Which type of breed has the highest waiting days in the shelter
+select_breed2 = 'SELECT breed, AVG(outcome_age_days) AS avg_days from Sheltor_outcome1 GROUP BY breed ORDER BY avg_days ASC LIMIT 5'
+for i in cursor.execute(select_breed2):
+    print(i)
