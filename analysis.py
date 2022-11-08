@@ -41,3 +41,24 @@ for i in cursor.execute(select_breed):
 select_breed2 = 'SELECT breed, AVG(outcome_age_days) AS avg_days from Sheltor_outcome1 GROUP BY breed ORDER BY avg_days ASC LIMIT 5'
 for i in cursor.execute(select_breed2):
     print(i)
+
+# Question3: What is the most common age of cats in Austin Animal Center?
+select_breed3 = 'SELECT age_upon_outcome, count(*) from Sheltor_outcome1 GROUP BY age_upon_outcome ORDER BY count(*) DESC LIMIT 1'
+for i in cursor.execute(select_breed3):
+    print(i)
+
+
+
+# Question4: On what day of the week is the cat most likely to be adopted?
+select_breed4 = 'SELECT outcome_weekday, count(*) from Sheltor_outcome1 GROUP BY outcome_weekday ORDER BY count(*) DESC LIMIT 1'
+for i in cursor.execute(select_breed4):
+    print(i)
+
+# Question5: On what day of the week is the cat least likely to be adopted?
+select_breed5 = 'SELECT outcome_weekday, count(*) from Sheltor_outcome1 GROUP BY outcome_weekday ORDER BY count(*) ASC LIMIT 1'
+for i in cursor.execute(select_breed5):
+    print(i)
+
+connects.commit()
+
+    
