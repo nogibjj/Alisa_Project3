@@ -1,8 +1,14 @@
 # Alisa_Project3: Home is where the heart is - analysis of animal shelter database
 
+This database only includes the record of cats.
+
+
+Austin Animal Center
+
+
 Generate a script that queries a database: MySQL, Sqlite, Spark or a cloud system. 
 
-
+insight in to 
 
 # 1. Question to answer: 
 
@@ -14,6 +20,17 @@ Generate a script that queries a database: MySQL, Sqlite, Spark or a cloud syste
 ### Question2: Which type of breed has the highest waiting days in the shelter?
 The 'birman' breed has the shortest waiting days of 30 in the shelter when compared to other breeds. The 'american wirehair','domestic shorthair/domestic mediumhair' as well as 'domestic shorthair/maine coon' breed have the same waiting period of 60. 
 
+### Question3: What is the most common age of cats in Austin Animal Center?
+heart-broken fact
+abandoned at such a young age
+2 months
+
+### Question4: On what day of the week is the cat most likely to be adopted?
+
+Saturday
+
+### Question5: On what day of the week is the cat least likely to be adopted?
+Thursday
 
 
 # 2. Connecting to the database
