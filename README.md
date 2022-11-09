@@ -39,8 +39,13 @@ chmod 600 ~/.kaggle/kaggle.json
 cd /home/codespace/.kaggle
 ````
 
+2. Download the dataset from Kaggle by copying the API command. 
 
 
+3. Create and connect the database with Sqlite3 in codespace (analysis.py)
+
+
+4. Analysis the animal shelter dataset (analysis.py)
 
 
 
