@@ -24,6 +24,11 @@ Cats are most likely to be adopted on Saturday.
 Thursday! People get busy during the week and have little time visit the Austin Animal Center. 
 
 # Created and connect the database, Inseted Data to the table in SQL
+1.  Use kaggle API to turn this dataset to csv file
+mkdir /home/codespace/.kaggle
+cp kaggle.json /home/codespace/.kaggle
+chmod 600 ~/.kaggle/kaggle.json
+cd /home/codespace/.kaggle
 
 
 
