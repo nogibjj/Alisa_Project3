@@ -23,17 +23,21 @@ Cats are most likely to be adopted on Saturday.
 ### Question5: On what day of the week is the cat least likely to be adopted?
 Thursday! People get busy during the week and have little time visit the Austin Animal Center. 
 
-# Created and connect the database, Inseted Data to the table in SQL
+# Created and connect the database, insert data to the table in SQL
 1.  Use kaggle API to turn this dataset to csv file
-
 
  ````markdown
 mkdir /home/codespace/.kaggle
 ````
+````markdown
 cp kaggle.json /home/codespace/.kaggle
+````
+ ````markdown
 chmod 600 ~/.kaggle/kaggle.json
+````
+ ````markdown
 cd /home/codespace/.kaggle
-
+````
 
 
 
